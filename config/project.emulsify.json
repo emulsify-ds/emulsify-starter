@@ -1,0 +1,10 @@
+{
+  "project": {
+    "platform": "starter",
+    "name": "emulsify",
+    "machineName": "emulsify"
+  },
+  "starter": {
+    "repository": "https://github.com/emulsify-ds/emulsify-starter.git"
+  }
+}
