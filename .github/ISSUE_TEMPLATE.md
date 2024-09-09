@@ -1,4 +1,4 @@
-emulsify version (see [releases](https://github.com/emulsify-ds/emulsify-drupal/releases)):
+Emulsify Core version (see [releases](https://github.com/emulsify-ds/emulsify-core/releases)):
 
 **What you did:**
 

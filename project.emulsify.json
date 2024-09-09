@@ -1,6 +1,6 @@
 {
   "project": {
-    "platform": "starter",
+    "platform": "none",
     "name": "emulsify",
     "machineName": "emulsify"
   },
