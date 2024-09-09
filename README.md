@@ -11,6 +11,8 @@
 ### Installation
 
 `emulsify init --starter <name>`
+or
+`emulsify init --platform none <name>`
 
 ## Demo
 
