@@ -1,5 +1,4 @@
 export default {
-  tagFormat: '${version}',
   branches: ['main'],
   repositoryUrl: 'git@github.com:emulsify-ds/emulsify-starter.git',
   plugins: [
