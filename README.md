@@ -2,11 +2,17 @@
 
 # Emulsify Starter
 
-**Emulsify Starter** is a scaffolding repository for the Emulsify CLI. It creates a platform-agnostic build that is meant for a standalone installation.
+**Emulsify Starter** is a scaffolding repository for the Emulsify CLI. It creates a standalone, platform-agnostic design system scaffold that runs outside of a CMS or application platform.
+
+Generated projects use Emulsify Core 4 and run Storybook plus asset builds through Vite.
 
 ## Documentation
 
 [Emulsify CLI Usage](https://www.emulsify.info/docs/supporting-projects/emulsify-cli/emulsify-cli-usage)
+
+## Requirements
+
+- Node.js `>=24`
 
 ### Installation
 
@@ -14,13 +20,19 @@
 or
 `emulsify init --platform none <name>`
 
+### Local Development
+
+- `npm run build` builds design system assets with Vite.
+- `npm run develop` runs Vite in watch mode alongside Storybook.
+- `npm run storybook-build` builds static Storybook output.
+
 ## Demo
 
 1. [Storybook](http://storybook.emulsify.info/)
 
 ## Contributing
 
-### [Code of Conduct](https://github.com/emulsify-ds/emulsify-drupal/blob/master/CODE_OF_CONDUCT.md)
+### [Code of Conduct](https://github.com/emulsify-ds/emulsify-starter/blob/main/CODE_OF_CONDUCT.md)
 
 The project maintainers have adopted a Code of Conduct that we expect project participants to adhere to. Please read the full text so that you can understand what actions will and will not be tolerated.
 
