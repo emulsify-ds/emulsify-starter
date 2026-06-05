@@ -6,24 +6,30 @@ export default {
       '@semantic-release/commit-analyzer',
       {
         preset: 'angular',
+        releaseRules: [
+          {
+            subject: 'sync starter with Emulsify Core 4 baseline*',
+            release: 'major',
+          },
+        ],
         parserOpts: {
-          noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING']
-        }
-      }
+          noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING'],
+        },
+      },
     ],
     [
       '@semantic-release/release-notes-generator',
       {
         preset: 'angular',
         parserOpts: {
-          noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING']
+          noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING'],
         },
         writerOpts: {
-          commitsSort: ['subject', 'scope']
-        }
-      }
+          commitsSort: ['subject', 'scope'],
+        },
+      },
     ],
     ['@semantic-release/npm', { npmPublish: false }],
-    '@semantic-release/github'
-  ]
+    '@semantic-release/github',
+  ],
 };
